@@ -64,3 +64,22 @@ h2{
         border-bottom-left-radius: 10px;
         border-radius: 50%;
     }
+
+    /*Color  div_common*/
+    .div_common{
+        /* 
+        height: 1rem;
+        width: 50%;
+        */
+        height: 100px;
+        width: 50%;
+        margin-bottom: 20px;
+        padding: 2rem;
+        box-shadow: 10px 1px 10px 1px rgba(0,0,0,.7)    ;
+    }
+
+
+    .color_class{
+        color: aqua;
+        background-color: black;
+    }
