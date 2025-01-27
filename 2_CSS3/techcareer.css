@@ -231,3 +231,31 @@ h2{
         background-color: white;
     }
     */
+
+    /* Flex Box*/
+    .flex_container{
+        display: flex; /*Flex özelliği verdik*/
+        justify-content: space-around; /*Yatay düzlem(X)*/
+        align-items: center; /*Dikey düzlem(Y)*/
+        flex-direction: row; /*Satır olması*/
+        flex-wrap: wrap; /*Container eğer sığmaz büyük gelirse bir sonraki satıra geçsin*/
+        align-content: space-around; /*Satırlar arasında eşit boşluk bıraksın ve dikey olarak sıralasın*/
+    }
+
+    .flex_item{
+        width: 100px;
+        height: 100px;
+        margin: 10px;
+        padding: 10px;
+        background-color: #f00;
+        color: white;
+        text-align: center;
+        line-height: 80px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        font-style: italic;
+        text-transform: uppercase;
+        text-shadow: 0.5px -0.6px 5px white;
+        border-radius: 50%;
+        box-shadow: 10px 1px 10px 1px white;
+    }
