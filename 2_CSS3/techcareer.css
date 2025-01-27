@@ -171,3 +171,14 @@ h2{
         background-color: white;
         color: #f00;
     }
+
+    /*Clearfix*/
+    .my_clearfix::after{
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    #my_clip_path{
+        clip-path: polygon(55% 0, 100% 55%, 55% 100%, 0 50%);
+    }
